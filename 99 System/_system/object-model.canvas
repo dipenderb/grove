@@ -1,0 +1,24 @@
+{
+	"nodes": [
+		{"id":"legend","type":"text","text":"## Object Model\nNodes are object **types**; edges are the **relations** between them (the `relation_type`). This canvas is the canonical map of how types relate.\n\n- Relation meaning & wikilink syntax → `relations.md`\n- `about` / `blocked_by` can target **any** object type\n- Update this whenever a type or relation is added (onboarding & `new-object-type` do this)","x":-220,"y":-420,"width":640,"height":150,"color":"6"},
+
+		{"id":"area","type":"text","text":"**area**\nlife domain · the container every object belongs to","x":-560,"y":120,"width":200,"height":90,"color":"6"},
+		{"id":"person","type":"text","text":"**person**\na human","x":-200,"y":-180,"width":200,"height":80,"color":"5"},
+		{"id":"event","type":"text","text":"**event**\na dated happening","x":-200,"y":120,"width":200,"height":80,"color":"4"},
+		{"id":"note","type":"text","text":"**note**\nreference / idea","x":140,"y":120,"width":200,"height":80},
+		{"id":"resource","type":"text","text":"**resource**\nfile / link","x":440,"y":120,"width":200,"height":80},
+		{"id":"project","type":"text","text":"**project**\ntime-bound effort","x":-200,"y":420,"width":200,"height":80,"color":"2"},
+		{"id":"task","type":"text","text":"**task** (a line, not a file)\nsingle action","x":140,"y":420,"width":200,"height":80,"color":"2"}
+	],
+	"edges": [
+		{"id":"e_event_person","fromNode":"event","fromSide":"top","toNode":"person","toSide":"bottom","label":"with"},
+		{"id":"e_task_person","fromNode":"task","fromSide":"top","toNode":"person","toSide":"bottom","label":"assigned_to"},
+		{"id":"e_task_event","fromNode":"task","fromSide":"left","toNode":"event","toSide":"right","label":"originated_from"},
+		{"id":"e_person_area","fromNode":"person","fromSide":"left","toNode":"area","toSide":"top","label":"area"},
+		{"id":"e_event_area","fromNode":"event","fromSide":"left","toNode":"area","toSide":"right","label":"area"},
+		{"id":"e_project_area","fromNode":"project","fromSide":"left","toNode":"area","toSide":"bottom","label":"area"},
+		{"id":"e_note_area","fromNode":"note","fromSide":"left","toNode":"area","toSide":"right","label":"area"},
+		{"id":"e_resource_area","fromNode":"resource","fromSide":"bottom","toNode":"area","toSide":"right","label":"area"},
+		{"id":"e_note_any","fromNode":"note","fromSide":"top","toNode":"person","toSide":"right","label":"about → any"}
+	]
+}

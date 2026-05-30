@@ -1,0 +1,19 @@
+# Obsidian — machine-specific state (keep app.json + types.json; they're the shipped defaults)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/.cache/
+.obsidian/plugins/
+.obsidian/themes/
+
+# Trash & OS cruft
+.trash/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI CLI runtime artifacts (regenerable, machine-specific)
+.claude/
+.gemini/
+.codex/
