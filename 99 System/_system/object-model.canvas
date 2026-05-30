@@ -1,6 +1,6 @@
 {
 	"nodes": [
-		{"id":"legend","type":"text","text":"## Object Model\nNodes are object **types**; edges are the **relations** between them (the `relation_type`). This canvas is the canonical map of how types relate.\n\n- Relation meaning & wikilink syntax → `relations.md`\n- `about` / `blocked_by` can target **any** object type\n- Update this whenever a type or relation is added (onboarding & `new-object-type` do this)","x":-220,"y":-420,"width":640,"height":150,"color":"6"},
+		{"id":"legend","type":"text","text":"## Object Model\nNodes are object **types**; edges are the **relations** between them (the `relation_type`). This canvas is the canonical map of how types relate.\n\n- Relation meaning & wikilink syntax → `relations.md`\n- `about` / `blocked_by` can target **any** object type\n- Update this whenever a type or relation is added (onboarding & `new-object-type` do this)\n\n✋ **If YOU edit this canvas, tell the assistant.** Editing here does NOT auto-rewire the relations in your notes — it's just the map. The assistant changes the actual links only when you ask (user-first: nothing changes behind your back).","x":-220,"y":-420,"width":660,"height":210,"color":"6"},
 
 		{"id":"area","type":"text","text":"**area**\nlife domain · the container every object belongs to","x":-560,"y":120,"width":200,"height":90,"color":"6"},
 		{"id":"person","type":"text","text":"**person**\na human","x":-200,"y":-180,"width":200,"height":80,"color":"5"},

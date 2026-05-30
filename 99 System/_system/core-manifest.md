@@ -21,3 +21,4 @@ Defines what an **update** may touch. **The contract: updates refresh only the C
 - **No forced migrations.** If a structural improvement needs the user's data to move, the update *proposes* it (the user approves) — it never moves data silently.
 - **Personalized files are merge-aware.** For `object-types.md` / `PROPERTIES.md` etc., an update may *suggest* new default rows but never overwrites the user's edits.
 - **Version is the gate.** Compare `VERSION` to the latest release; apply only the CORE diff.
+- **Every release ships notes.** Each new version: bump `VERSION`, add a dated entry to `CHANGELOG.md`, tag `vYY.MM.DD-build`, and publish that entry as the GitHub release notes. No silent releases.

@@ -1,12 +1,9 @@
 ---
-type: area
-created: 
 area_status: active
+type: area
+created:
 ---
-<!-- This note is the AREA DASHBOARD — an at-a-glance index of everything in this area.
-     Queries below are live with the Dataview plugin (config.md → dataview: true).
-     If dataview is off, the assistant maintains these as hand-updated lists instead.
-     Everything works by the `area` field on each object pointing back to this note. -->
+<!-- AREA DASHBOARD — a live index of everything in this area. Live sections need the Dataview plugin (config.md → dataview: true); without it the assistant keeps them as hand-updated lists. Works via each object's `area` field pointing back here. -->
 
 ## Purpose
 _What this domain of life is about, in a line._

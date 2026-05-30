@@ -2,7 +2,7 @@
 
 The non-negotiables. Architecture (`architecture.md`) is the *mechanism*; this is the *philosophy*. When a decision is ambiguous, these break the tie.
 
-1. **The OS adapts to you — never the reverse.** You should not learn a tool's data model. The tool learns yours, through the onboarding interview and the classification learning loop. Every person's OS ends up shaped differently.
+1. **User-first, always — the OS adapts to you, never the reverse.** You should not learn a tool's data model; the tool learns yours (onboarding interview + classification learning loop). Every design choice is made from *your* perspective: you own and control everything, the structure stays visible and understandable, and **nothing changes behind your back** — the assistant *proposes and surfaces* decisions rather than burying them, and touches your data only as you intend (e.g. editing the relations canvas doesn't silently rewire your notes). When a call is genuinely yours, it asks. Every person's OS ends up shaped differently.
 
 2. **Local-first, plain-text-forever.** Everything is markdown in one folder you own. No cloud holds the canonical record. If every app you use today vanished, your OS would still open in any text editor in 50 years.
 

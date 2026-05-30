@@ -1,12 +1,12 @@
 ---
-type: resource
-created: 
-area: 
-url: 
-source: 
+area:
+url:
+source:
 tags: []
+type: resource
+created:
 ---
 ## What it is
 
 ## Why it matters / takeaways
-
+-

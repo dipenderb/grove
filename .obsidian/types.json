@@ -3,6 +3,9 @@
     "created": "date",
     "due": "date",
     "date": "date",
-    "tags": "tags"
+    "tags": "tags",
+    "area": "text",
+    "with": "multitext",
+    "org": "text"
   }
 }
