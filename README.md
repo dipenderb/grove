@@ -66,7 +66,7 @@ Grove improves over time. Updates are **backward-compatible by design and never 
 
 ## Version & license
 
-- **Version:** `v26.05.30-02` (see [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md); scheme is `vYY.MM.DD-build`).
+- **Version:** `v26.05.30-03` (see [`VERSION`](VERSION) · [`CHANGELOG.md`](CHANGELOG.md); scheme is `vYY.MM.DD-build`).
 - **License:** [MIT](LICENSE) — free for everyone, forever. Fork it, share it, build on it.
 
 ---

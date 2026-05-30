@@ -2,6 +2,10 @@
 
 All notable changes to Grove. Versions use `vYY.MM.DD-build`. Updates are **CORE-only and backward-compatible** — they never touch your content or structure (see `99 System/_system/core-manifest.md`).
 
+## v26.05.30-03 — 2026-05-30
+- **Capture-style tasks surface on their object.** A task jotted anywhere (e.g. today's daily note) with a `[[link]]` to a project or person now appears on that object — added an "⤵ Captured elsewhere" Dataview query to the **project** and **person** templates, plus a convention and a `capture-triage` rule. Tasks stay inline `- [ ]` lines; the link does the surfacing.
+- **Property setup is now recoverable.** `vault-health` reconciles `.obsidian/types.json` + `PROPERTIES.md` against `object-types.md` — registering/populating anything missing — so a skipped onboarding property-setup can be fixed anytime (run vault-health, or just ask).
+
 ## v26.05.30-02 — 2026-05-30
 First round of trial-feedback fixes and polish.
 - **Onboarding now reliably sets up properties** — it explicitly registers property types in `.obsidian/types.json` and populates `PROPERTIES.md` with controlled values (these were being skipped).

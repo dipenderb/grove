@@ -1,6 +1,6 @@
 # Grove — Operating Contract
 
-**Grove** is a **local-first, markdown-based operating system for managing one person's life and work** from a single folder. Every note is a typed object. Everything is plain markdown — portable forever, owned by the user, no vendor lock-in. **Version:** see `VERSION` (`v26.05.30-02`); updates are CORE-only and backward-compatible (`99 System/_system/core-manifest.md`); changes are logged in `CHANGELOG.md`.
+**Grove** is a **local-first, markdown-based operating system for managing one person's life and work** from a single folder. Every note is a typed object. Everything is plain markdown — portable forever, owned by the user, no vendor lock-in. **Version:** see `VERSION` (`v26.05.30-03`); updates are CORE-only and backward-compatible (`99 System/_system/core-manifest.md`); changes are logged in `CHANGELOG.md`.
 
 **Model-agnostic.** This OS runs under any AI CLI — Claude Code, Codex, Gemini CLI, or another. `AGENTS.md` (this file) is the single canonical contract; `CLAUDE.md` and `GEMINI.md` are thin pointers that redirect their tools here. Nothing in this system assumes a specific model or vendor; "the assistant" below means whichever AI you are.
 

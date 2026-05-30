@@ -33,6 +33,7 @@ Mechanical rules that keep the vault consistent and queryable. When in doubt, ma
 - Connect with `[[wikilinks]]`. Link the canonical object (the file), not a copy of its content.
 - A link to a not-yet-created object is fine — it marks a stub worth creating later. Obsidian shows it as an unresolved link.
 - Prefer linking over restating. If you find yourself copying a fact, link the source instead.
+- **Capture-style: write anywhere, link the object, it surfaces there.** A task or note jotted in today's daily note (or the Inbox) that wikilinks an object appears on that object automatically — e.g. `- [ ] Call the vendor [[Renovate kitchen]] 📅 2026-06-02` shows up under the project's tasks (via a Dataview `contains(outlinks, this.file.link)` query). So you never have to open the project to add its tasks: capture once with the link. (Tasks stay inline `- [ ]` lines — the link does the surfacing, not a separate task file.)
 
 ## Properties & tags
 - The full discipline — when to use a link vs. property vs. tag, the no-duplication rule, and how to keep the set small — lives in `99 System/_system/properties-and-tags.md`. Don't restate it here; follow it there.

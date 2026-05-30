@@ -30,4 +30,12 @@ LIMIT 15
 ```
 
 ## Open with them
+Add directly — **or capture anywhere** with a `[[link to this person]]`; they surface below.
 - [ ]
+
+### ⤵ Captured elsewhere (open tasks linking this person)
+```dataview
+TASK
+WHERE !completed AND contains(outlinks, this.file.link)
+SORT due ASC
+```

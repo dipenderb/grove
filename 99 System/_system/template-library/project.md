@@ -12,7 +12,15 @@ created:
 What "done" looks like.
 
 ## Tasks
+Add tasks here directly — **or capture them anywhere** (e.g. today's daily note) with a `[[link to this project]]`; they surface below.
 - [ ]
+
+### ⤵ Captured elsewhere (open tasks linking this project)
+```dataview
+TASK
+WHERE !completed AND contains(outlinks, this.file.link)
+SORT due ASC
+```
 
 ## People
 -

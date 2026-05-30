@@ -55,4 +55,5 @@ Use `classify-object-type` for types, `link-objects` to connect.
 - **Never silently delete.** Triage relocates and structures; the user can always trace back.
 - **When ambiguous, ask in one line** rather than guessing the user's intent — but make the obvious calls yourself.
 - **Apply minimalism** (`architecture.md`): default to a field/relation/inline-task before inventing a new type. A captured to-do is a checkbox, not a file.
+- **Link a task to what it's about.** When a captured to-do concerns a known object (a project/person), keep it an inline `- [ ]` line but **add the object's `[[wikilink]]`** (`- [ ] Call the vendor [[Renovate kitchen]] 📅 …`) so it surfaces on that object's note (capture-style). The line can live in the daily note or Inbox — the link does the routing, no need to move it into the project.
 - **Batch and summarize.** After triaging a backlog, give the user a 3–5 line summary: what was created, what was linked, what needs their decision.
